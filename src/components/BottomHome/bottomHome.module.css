@@ -1,0 +1,24 @@
+.bottomHome {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color:#363533 ;
+    padding: 24px;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    color: #918D8E;
+}
+
+.text {
+    margin-top: 2px;
+    font-size: 8px;
+    text-align: center;
+    color: #918D8E;
+}

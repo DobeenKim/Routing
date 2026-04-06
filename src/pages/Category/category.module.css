@@ -1,0 +1,33 @@
+.category {
+    width: 100%;
+    padding: 24px 0 110px;
+    background: #000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.genre {
+    border: 1px solid #FEFEFE;;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.name {
+    font-size: 16px;
+    text-align: center;
+    color: #FEFEFE;
+    padding: 16px;
+    margin: 0;
+
+}
+

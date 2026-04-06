@@ -1,0 +1,22 @@
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 0 13px 14px ;
+}
+
+.item {
+    font-size: 16px;
+    margin: 0;
+    border:  1px solid #575354;
+    border-radius: 100px;
+    padding: 8px 12px;
+    color: #C1C1C1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.item:nth-child(1) {
+    display: none;
+}
