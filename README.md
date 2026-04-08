@@ -23,7 +23,15 @@ Instead of adding complex features, I focused on a simple design. My goal was to
 
 <h2>Tech Stack & Tools</h2>
 Library: React, React Router
-Data: TMDB API
+Data: TMDB API![Uploading Screenshot 2026-04-08 at 17.52.50.png…]()
 Hooks: (useState, useEffect, useParams, useNavigate)
-
 Styling: CSS Modules, Responsive Design (768px & 1440px)
+
+
+
+
+
+Data: TMDB API<img width="1023" height="720" alt="Screenshot 2026-04-08 at 17 52 50" src="https://github.com/user-attachments/assets/2954e894-6074-4057-827c-63c5b3a2dc7a" />
+
+
+
