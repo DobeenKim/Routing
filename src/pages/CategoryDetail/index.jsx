@@ -42,8 +42,8 @@ const CategoryDetail = () => {
             const response = await fetch(URL)
             const detailData = await response.json()
             setDetail(detailData.results)
-            console.log(detailData.results)
-        } catch (error) {
+
+            } catch (error) {
             console.log(error)
         }
     }
@@ -56,7 +56,7 @@ const CategoryDetail = () => {
             <p className={styles.genreName}>{genreName}</p>
             <div className={styles.container}>
                 {detail.map((movie) => (
-                    <NavLink NavLink to={`/movie/${movie.id}`} key={movie.id} className={styles.movie}>
+                    <NavLink to={`/movie/${movie.id}`} key={movie.id} className={styles.movie}>
                         <p className={styles.img}>
                             <img 
                             src={`https://image.tmdb.org/t/p/w300${movie.poster_path}`} 

@@ -16,10 +16,70 @@
     width: 100%;
 }
 
+.textBox {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.span {
+    font-weight: 600;
+}
+
 .text {
     font-size: 1.2rem;
 }
 
 .overview {
     font-size: 1rem;
+}
+
+.genres {
+    display: flex;
+}
+
+p {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .movieInfo {
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .movieInfo {
+        min-height: 100vh;
+        padding-top: 40px;
+    }
+
+    .container {
+        width: 88%;
+        display: flex;
+        gap: 40px;
+    }
+
+    .img {
+        width: 70%;
+    }
+
+    .text {
+        font-size: 2rem;
+    }
+
+    .castContainer {
+        line-height: 1.5;
+        display: flex;
+        gap: 8px;
+    }
+
+    .cast {
+        display: flex;
+    }
+
+    .button {
+        width: 88%;
+        margin: 0 auto;
+        padding-top: 24px;
+    }
 }
