@@ -65,6 +65,8 @@
 }
 
 @media (min-width: 1440px) {
-
+    .detail {
+        padding-top: 20px;
+    }
 }
 

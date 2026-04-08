@@ -51,7 +51,7 @@
 
 @media (min-width: 1440px) {
     .home {
-        padding-top: 40px;
+        padding-top: 20px;
     }
     .container {
         grid-template-columns: repeat(5, 1fr);
