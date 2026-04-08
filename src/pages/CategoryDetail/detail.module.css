@@ -1,22 +1,24 @@
 .detail {
     width: 100%;
-    background: #000;
     min-height: 100vh;
     padding-bottom: 120px;
+}
+
+.wrap {
+    width: 85%;
+    margin: 0 auto;
 }
 
 .genreName {
     margin: 0;
     font-size: 20px;
     color: #FEFEFE;
-    padding: 0 20px;
+    padding-bottom: 16px;
 }
 
 .container {
-    width: 80%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0 auto;
     gap: 16px;
     justify-content: center;
     align-items: center;
@@ -52,10 +54,17 @@
     .detail {
         padding-bottom: 40px;
     }
-}
 
-@media (min-width: 1440px) {
+    .wrap {
+        width: 88%;
+    }
+
     .container {
         grid-template-columns: repeat(5, 1fr);
     }
 }
+
+@media (min-width: 1440px) {
+
+}
+

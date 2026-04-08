@@ -53,7 +53,8 @@ const CategoryDetail = () => {
 
     return (
         <div className={styles.detail}>
-            <p className={styles.genreName}>{genreName}</p>
+            <div className={styles.wrap}>
+                <p className={styles.genreName}>{genreName}</p>
             <div className={styles.container}>
                 {detail.map((movie) => (
                     <NavLink to={`/movie/${movie.id}`} key={movie.id} className={styles.movie}>
@@ -66,6 +67,7 @@ const CategoryDetail = () => {
                         <p className={styles.title}>{movie.title}</p>
                     </NavLink>
                 ))}
+            </div>
             </div>
         </div>
     )

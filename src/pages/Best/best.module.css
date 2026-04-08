@@ -1,6 +1,5 @@
 .best {
     width: 100%;
-    background: #000;
     min-height: 100vh;
     padding-bottom: 120px;
 }
@@ -56,16 +55,16 @@
     .best {
         padding-bottom: 40px;
     }
+
+    .container {
+        width: 88%;
+        grid-template-columns: repeat(5, 1fr);
+    }
 }
 
 @media (min-width: 1440px) {
     .best {
         padding-top: 40px;
-    }
-
-    .container {
-        width: 88%;
-        grid-template-columns: repeat(5, 1fr);
     }
 
     .movie {

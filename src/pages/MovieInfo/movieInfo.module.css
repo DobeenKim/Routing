@@ -3,7 +3,7 @@
     padding-bottom: 100px;
 }
 
-.container {
+.wrap {
     width: 80%;
     margin: 0 auto;
 }
@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+    color: #C1C1C1;
 }
 .span {
     font-weight: 600;
@@ -27,23 +28,35 @@
 
 .text {
     font-size: 1.2rem;
+    color: #fff;
 }
 
 .overview {
     font-size: 1rem;
 }
 
-.genres {
-    display: flex;
-}
-
 p {
     margin: 0;
 }
 
+.button {
+    color: #fff;
+    padding-top: 40px;
+}
+
 @media (min-width: 768px) {
     .movieInfo {
-        padding-bottom: 40px;
+        padding: 40px 0;
+    }
+
+    .img, .textBox {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .button {
+        width: 70%;
+        margin: 0 auto;
     }
 }
 
@@ -53,14 +66,17 @@ p {
         padding-top: 40px;
     }
 
-    .container {
+    .wrap {
         width: 88%;
+    }
+
+    .container {
         display: flex;
         gap: 40px;
     }
 
     .img {
-        width: 70%;
+        width: 40%;
     }
 
     .text {
@@ -70,16 +86,16 @@ p {
     .castContainer {
         line-height: 1.5;
         display: flex;
+    }
+
+    .cast,
+    .genres  {
+        display: flex;
         gap: 8px;
     }
 
-    .cast {
-        display: flex;
-    }
-
     .button {
-        width: 88%;
-        margin: 0 auto;
+        width: 100%;
         padding-top: 24px;
     }
 }

@@ -25,9 +25,13 @@
     .item:nth-child(1) {
         display: block;
     }
+
+    .menu {
+        padding:0  43px 14px;
+    }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1440px) {
     .menu {
         padding:0  80px 14px;
     }

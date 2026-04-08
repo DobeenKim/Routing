@@ -31,7 +31,8 @@ const MovieInfo = () => {
 
     return (
         <div className={styles.movieInfo}>
-            <div className={styles.container}>
+            <div className={styles.wrap}>
+                <div className={styles.container}>
                 <p className={styles.img}>
                     <img 
                     src={`https://image.tmdb.org/t/p/w300${movieInfo.poster_path}`} 
@@ -55,9 +56,10 @@ const MovieInfo = () => {
                             ))}</div>
                         )}
                         </div>
+                    </div>
                 </div>
+                <Button className={styles.button}></Button>
             </div>
-            <Button className={styles.button}></Button>
         </div>
     )
 }

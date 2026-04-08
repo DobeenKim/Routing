@@ -1,6 +1,7 @@
 .about {
     width: 100%;
     padding-bottom: 120px;
+    color: #C1C1C1;
 }
 
 .container {
@@ -12,6 +13,7 @@
 
 .title {
     font-size: 1.2rem;
+    color: #fff;
 }
 
 .subTitle {
@@ -27,10 +29,12 @@
         min-height: 100vh;
         padding: 40px 0;
     }
-}
 
-@media (min-width: 1440px) {
     .container {
         width: 88%;
     }
+}
+
+@media (min-width: 1440px) {
+
 }
