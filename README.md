@@ -1,16 +1,29 @@
-# React + Vite
+<h1>About This Project</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This website is a multi-page movie site built by integrating React Router with an external API (TMDB). The project focuses on implementing structured project design, state management, props distribution, and dynamic routing functionality.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<h2>This project consists of 6 main pages</h4>
+Home: The main dashboard showing the most popular movies right now.
 
-## React Compiler
+Category: A menu page where you can explore various movie genres.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Best: A curated list of top-rated movies of all time.
 
-## Expanding the ESLint configuration
+About: A page explaining the inspiration and technology behind this project.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Category Detail: A genre-specific page that lists movies based on your selection.
+
+Movie Information: The final destination where you can see a movie's poster, title, and detailed story.
+
+<h2>Design Concept</h2>
+used a dark background to make the movie posters stand out visually, just like the Netflix interface
+
+Instead of adding complex features, I focused on a simple design. My goal was to make it easy for users to choose genres and check movie details intuitively.
+
+<h2>Tech Stack & Tools</h2>
+Library: React, React Router
+Data: TMDB API
+Hooks: (useState, useEffect, useParams, useNavigate)
+
+Styling: CSS Modules, Responsive Design (768px & 1440px)
