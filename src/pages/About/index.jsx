@@ -6,9 +6,7 @@ const About = () => {
             <div className={styles.container}>
                 <div className={styles.group1}>
                     <h2 className={styles.title}>About This Project</h2>
-                    <p className={styles.text}>I really enjoy watching movies, dramas, and animations on Netflix. 
-                        Because of this interest, I decided to create a movie information site for my React routing project. 
-                        I wanted to build a space where I could explore the kinds of content I love.
+                    <p className={styles.text}>This website is a multi-page movie site built by integrating React Router with an external API (TMDB). The project focuses on implementing structured project design, state management, props distribution, and dynamic routing functionality.
                     </p>
                     <h4 className={styles.subTitle}>This project consists of 6 main pages</h4>
                     <p className={styles.text}>Home: The main dashboard showing the most popular movies right now.</p>
@@ -25,7 +23,8 @@ const About = () => {
                 </div>
                 <div className={styles.group3}>
                     <h2 className={styles.title}>Tech Stack & Tools</h2>
-                    <p className={styles.text}>React Router <br /> TMDB API <br />Hooks (useState, useEffect, useParams, useNavigate)</p>
+                    <p className={styles.text}>Library: React, React Router<br />Data: TMDB API <br />Hooks: (useState, useEffect, useParams, useNavigate)</p>
+                    <p className={styles.text}>Styling: CSS Modules, Responsive Design (768px & 1440px)</p>
                 </div>
             </div>
         </div>
