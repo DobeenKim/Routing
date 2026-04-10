@@ -43,7 +43,7 @@ const MovieInfo = () => {
                     <h2 className={styles.text}>{movieInfo.title}</h2>
                     <p className={styles.overview}>{movieInfo.overview}</p> 
                     <div className={styles.genres}> <span className={styles.span}>Genre:</span>
-                        {movieInfo.genres?.map((g => <p key={g.id}>{g.name}</p>))}
+                        {movieInfo.genres?.map((genres) => ( <p key={genres.id}>{genres.name}</p> ))}
                     </div> 
                         {director && (
                             <p className={styles-director}><span className={styles.span}>Director:</span>{director.name}</p>

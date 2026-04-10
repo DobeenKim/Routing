@@ -12,13 +12,11 @@ const Category = () => {
     const URL=`https://api.themoviedb.org/3/genre/movie/list?api_key=${API_KEY}`
 
     const fetchGenres = async() => {
-        console.log("2. 함수 실행됨");
+        console.log
         try {
             const response = await fetch(URL)
             const genresData = await response.json()
-            console.log("3. 데이터 받아옴:", genresData);
             setCategory(genresData.genres)
-            console.log(genresData.genres)
         } catch (error) {
             console.log(error)
         }
